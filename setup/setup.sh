@@ -53,6 +53,7 @@ case ${osinfo} in
     echo '[*] Installing RDPY'
     git clone https://github.com/ChrisTruncer/rdpy.git
     cd rdpy
+    python --version
     python setup.py install
     cd ..
     rm -rf rdpy
