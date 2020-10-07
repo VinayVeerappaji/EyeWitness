@@ -194,8 +194,9 @@ case ${osinfo} in
     python2 -m pip install cryptography --upgrade
     echo '[*] Installing RDPY'
     echo "This is being installed"
-    git clone https://github.com/ChrisTruncer/rdpy.git
+#     git clone https://github.com/ChrisTruncer/rdpy.git
 #     git clone https://github.com/citronneur/rdpy.git
+    python2 -m pip install rdpy
     cd rdpy
     python setup.py install
     cd ..
